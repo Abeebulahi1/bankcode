@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppin" , sans-serif;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(158, 154, 154);
+    
+}
+.header{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 90px 90px ;
+    background-color: rgb(255, 153, 0);
+}
+.header h1{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+.form-in{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.form-in  h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.form-in form label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.form-in form input{
+    background: none;
+    border: 0;
+    border-bottom: 1px solid rgb(80, 76, 76);
+    margin-left: 10px;
+    outline: none;
+}
+
+.form-in form  button{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 20px auto 0;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: rgb(253, 253, 253); 
+    background-color: rgb(252, 152, 1);
+    cursor: pointer;
+    transition: 1s;
+}
+/* .form-in form a{
+    text-decoration: none;
+   
+} */
+.form-in form  button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+}
