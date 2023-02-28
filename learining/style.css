@@ -280,7 +280,7 @@
         background-color: yellow;
         display: grid;
         overflow: hidden;
-        column-gap: 4px;
+        column-gap: 2px;
         grid-template-columns: 25% auto 25%;
     }
     .table .table-cont{
@@ -292,14 +292,15 @@
         border-radius: 0;
     }
     .sidenav .header{
-        padding: 10px;
-        margin-top: 19px;
+        padding: 0px;
+        margin: 19px 30px 70px 30px;
     }
     .header h1{
         font-size: 18px;
     }
     .lists a{
         font-size: 18px;
+        margin-top: 20px;
     }
     /* ----------Main contect-------- */
     .second-content{
@@ -307,7 +308,7 @@
         margin: 8px 10px;
     }
     .notes img{
-        width: 46px;
+        width: 35px;
     }
     .notes h1{
         font-size: 30px;
@@ -328,7 +329,7 @@
     /* ----------side-nav2-------- */
     .search-box form input{
         margin: 10px 8px;
-    }
+    }   
     .progress-bar{
         margin: 1rem 2.2rem;
     }
