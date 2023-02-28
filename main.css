@@ -283,39 +283,45 @@ table td span{
 .list .head p{
     font-size: 13px;
 }
+.list img{
+    margin-top: 10px;
+}
 /* ----------All medis queries codes-------- */
 @media screen and (max-width:1090px) {
     .container{
         /* width: 100%; */
-        background-color: yellow;
+        /* background-color: yellow; */
         display: grid;
-        overflow: hidden;
-        column-gap: 2px;
-        grid-template-columns: 25% auto 25%;
+        overflow: visible;
+        column-gap: 3px;
+        grid-template-columns: 23% auto 27%;
     }
-    .table .table-cont{
+    /* .table .table-cont{
         visibility: hidden;
-     }
+     } */
     
     /* ----------side-nav1-------- */
-    .sidenav{
-        border-radius: 0;
-    }
     .sidenav .header{
-        padding: 0px;
-        margin: 19px 30px 70px 30px;
+        margin: 0px -60px 20px 10px;
     }
-    .header h1{
-        font-size: 18px;
+    .header img{
+        width: 60%;
     }
     .lists a{
         font-size: 18px;
         margin-top: 20px;
     }
     /* ----------Main contect-------- */
+    .first-content h1 span{
+        font-size: 25px;
+    }
+    .first-content{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .second-content{
         padding: 20px 20px;
-        margin: 8px 10px;
+        margin: 10px 10px;
     }
     .notes img{
         width: 35px;
@@ -328,15 +334,21 @@ table td span{
         padding: 14px 0px;
     }
     .third-content{
-        margin: 0px 8px;
+        margin: 0px 2px;
+    }
+    .third-content .hide{
+        display: none;
     }
     .third-content h1{
-        padding: 25px 10px;
+        padding: 34px 10px;
     }
     .table table td,th{
         padding: 22px 10px;
     }
     /* ----------side-nav2-------- */
+    .sidenav-2{
+        padding-right: 7px;
+    }
     .search-box form input{
         margin: 10px 8px;
     }   
@@ -357,7 +369,7 @@ table td span{
         display: none;
     }
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:900px) {
     .container{
         background-color: red;
         display: grid;
@@ -444,7 +456,7 @@ table td span{
 }
 @media screen and (max-width:750px){
     .container{
-        background-color: black;
+        background-color: rgb(146, 15, 15);
     }
     .header h1{
         font-size: 18px;
@@ -479,16 +491,17 @@ table td span{
 @media screen and (max-width:670px){
     .container{
         display: grid;
+        background: green;
         grid-template-columns: auto;
     }
 /* --------side nav 1--------- */
     .sidenav{
         display: none;
     }
-    .button-table{
+    /* .button-table{
         padding: 20px;
         visibility: visible;
-    }
+    } */
     .table-cont table{
         width: 100%;
         border-collapse: collapse;
@@ -497,6 +510,6 @@ table td span{
 }
 @media screen and (max-width:530px){ 
     .content{
-        background-color: aquamarine;
+        background-color: rgb(54, 36, 36);
     }
 }

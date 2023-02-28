@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
-    overflow: hidden;
 }
 .container{
     width: 100%;
@@ -31,6 +30,18 @@
 }
 .table table th{
     background-color: rgb(222, 228, 222);
+}
+table tr td span{
+    color: green;
+    font-weight: 600;
+}
+.green{
+    color: green;
+    font-weight: 600;
+}
+.red{
+    color: red;
+    font-weight: 600;
 }
 .btn{
     padding: 10px 20px;
