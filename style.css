@@ -58,6 +58,9 @@
     cursor: pointer;
     transition: 2s all ease;
 }
+.fa{
+    font-size: 25px;
+}
  
 .form-in form button:hover{
     background-color: transparent;
@@ -65,9 +68,6 @@
     border: 1px solid black;
 }
 @media screen and (max-width: 700px) {
-    .header{
-        border-radius: 0 0 90px 90px;
-    }
     .header img{
         width: 50%;
     }
