@@ -237,8 +237,8 @@ table td span{
 .progress-bar{
     position: relative;
     display: inline-block;
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 9rem;
     margin: 1.3rem 4.3rem ;
     border: 1.3rem solid black;
